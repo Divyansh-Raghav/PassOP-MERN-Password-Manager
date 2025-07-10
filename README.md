@@ -1,12 +1,44 @@
-# React + Vite
+# 🔐 PassOP - MERN Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP is a secure and modern password manager built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). It allows users to save, view, edit, delete, and copy their website credentials securely. All passwords are **AES-256 encrypted** before being stored in MongoDB.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔒 AES-256 encryption for stored passwords
+- 📦 MongoDB integration using native driver
+- ➕ Add, ✏️ Edit, ❌ Delete, 📋 Copy credentials
+- 👁️ Toggle password visibility
+- 🧠 Smart UUID-based unique IDs
+- 💾 LocalStorage for frontend state
+- 🔌 REST API with Express.js
+- 🌐 Cross-Origin support (CORS)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Tech Stack
+
+**Frontend:**
+- React.js
+- Tailwind CSS
+- react-icons
+- react-toastify
+- uuid
+
+**Backend:**
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- crypto (for AES encryption)
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/Ansh-pal/MERN_PassOP-password_manager.git
+cd MERN_PassOP-password_manager
