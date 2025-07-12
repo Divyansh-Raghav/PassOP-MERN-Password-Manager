@@ -35,10 +35,3 @@ PassOP is a secure and modern password manager built using the **MERN Stack** (M
 
 ---
 
-## 🛠️ Setup Instructions
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/Ansh-pal/MERN_PassOP-password_manager.git
-cd MERN_PassOP-password_manager
